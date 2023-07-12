@@ -49,7 +49,7 @@
         </div>
 
         <?php
-        echo $_SESSION['userID'];
+        // echo $_SESSION['userID'];
         if (!empty($_SESSION['userID']) && $_SESSION['userID'] > 0) {  ?>
             <div class="row">
                 <div class="col-12">
